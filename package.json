@@ -1,7 +1,7 @@
 {
   "author": "Connor Harper",
-  "name": "web-api-code-example",
-  "description": "Basic examples of the Spotify authorization flows through oAuth2",
+  "name": "addepar-code-test",
+  "description": "Code test interview for addepar",
   "version": "0.0.1",
   "main": "app.js",
   "dependencies": {
