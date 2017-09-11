@@ -1,0 +1,70 @@
+/*CORE STYLING*/
+
+//============================================
+// Left Info Section
+//============================================
+
+.container__info {
+	// stuff goes here...
+	h2 {
+		font-family: $header-font;
+		color: $turquoise;
+		font-size: $primary;
+		padding-bottom: $header-bottom;
+	}
+
+	h3 {
+		font-family: $body-font;
+		text-transform: uppercase;
+		color: $gray;
+		font-size: $primary;
+		padding-bottom: $header-bottom;
+	}
+
+	p {
+		font-family: $body-font;
+	}
+}
+
+.addepar-logo {
+	position: absolute;
+	padding-left: 20px;
+}
+
+.summer-hero {
+	background-color: $purple;
+	text-align: center;
+	width: 100%;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+//============================================
+// Form section
+//============================================
+
+input, select {
+	border: none;
+}
+
+#addepar__form {
+	background-color: rgba(0, 213, 214, 0.32);
+}
+
+.addepar__form-input {
+	width: 100%;
+	margin: 15px;
+	font-size: 18px;
+	background: none;
+	border-bottom: 2px solid $turquoise;
+}
+
+.addepar__form-header {
+	font-family: $header-font;
+	color: $turquoise;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 30px;
+	border-bottom: 3px solid $purple;
+	background: $transparent;
+}
